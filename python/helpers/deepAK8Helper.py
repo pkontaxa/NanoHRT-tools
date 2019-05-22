@@ -67,7 +67,7 @@ def get_decorr_score(jet, score):
 def get_nominal_raw_score(jet, score):
     return _get_raw_score(jet, score, False)
 
-def get_decorr_score(jet, score):
+def get_decorr_raw_score(jet, score):
     return _get_raw_score(jet, score, True)
 ############################
 
